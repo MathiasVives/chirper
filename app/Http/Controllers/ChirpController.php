@@ -12,7 +12,7 @@ class ChirpController extends Controller
      * Display a listing of the resource.
      */
     public function index(): Response     {
-        //
+        return response('Hello, World!');
     }
 
     /**
@@ -20,7 +20,7 @@ class ChirpController extends Controller
      */
     public function create()
     {
-        return response('Hello, World!');
+        //
     }
 
     /**
